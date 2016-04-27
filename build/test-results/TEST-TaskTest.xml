@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TaskTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2016-04-26T16:48:27" hostname="epicodus-42.local" time="0.0">
+<testsuite name="TaskTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2016-04-27T18:19:20" hostname="epicodus-79.local" time="0.002">
   <properties/>
+  <testcase name="find_returnsNullWhenNoTaskFound_null" classname="TaskTest" time="0.0"/>
+  <testcase name="getCreatedAt_instantiatesWithCurrentTime_today" classname="TaskTest" time="0.0"/>
+  <testcase name="isCompleted_isFalseAfterInstantiation_false" classname="TaskTest" time="0.001"/>
+  <testcase name="all_returnsAllInstancesOfTask_true" classname="TaskTest" time="0.0"/>
+  <testcase name="find_returnsTaskWithSameId_secondTask" classname="TaskTest" time="0.0"/>
   <testcase name="Task_instantiatesCorrectly_true" classname="TaskTest" time="0.0"/>
   <testcase name="Task_instantiatesWithDescription_String" classname="TaskTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="clear_emptiesAllTasksFromArrayList_0" classname="TaskTest" time="0.0"/>
+  <testcase name="getId_tasksInstantiatesWithID_1" classname="TaskTest" time="0.0"/>
+  <system-out><![CDATA[Index: 998, Size: 5]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
