@@ -3,6 +3,11 @@ import static org.junit.Assert.*;
 import java.time.LocalDateTime;
 
 public class TaskTest {
+  @After
+  public void tearDown() {
+    Task.clear();
+  }
+
 
   @Test
   public void Task_instantiatesCorrectly_true() {
@@ -44,7 +49,6 @@ public class TaskTest {
 
   @Test
   public void getId_tasksInstantiatesWithID_1() {
-    Task.clear();
     Task myTask = new Task("Mow the lawn");
     assertEquals(1, myTask.getId());
   }

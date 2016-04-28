@@ -1,13 +1,4 @@
-<h1>Task list!</h1>
+<h1>To-Do List</h1>
 
-#if ($tasks)
-  <ul>
-    #foreach ($task in $tasks)
-    <li> $task.getDescription()</li>
-  </ul>
-    #end
-#else
-  <p>No tasks!</p>
-#end
-
-<h1><a href="/task/new">Add a new task</a></h1>
+<a href="/categories">View Category List</a>
+<a href="/categories/new">Add a New Category</a>
